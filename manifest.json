@@ -13,7 +13,7 @@
     "resources": ["lingo_rule.js", "lingo.js"],
     "matches": ["<all_urls>"]
   }],
-	"permissions": ["storage"],
+	"permissions": ["storage", "contextMenus"],
   "action": {
     "default_popup": "index.html",
     "default_icon": {
@@ -22,5 +22,8 @@
       "48": "/images/lingo_48.png",
       "128": "/images/lingo_128.png"
     }
-	}
+	},
+  "background": {
+    "service_worker": "background.js"
+  }
 }
