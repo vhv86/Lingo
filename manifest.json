@@ -1,6 +1,7 @@
 {
-  "name": "Lingo!",
-  "description": "For an internet that speaks YOUR language 😎. Substitute words or phrases for your browsing pleasure.",
+  "name": "IPA Helper",
+  "description": "Help to improve speaking by adding IPA beside English words.",
+
   "version": "1.0.1",
   "manifest_version": 3,
 	"author": "Bryce Corbitt",

@@ -27,7 +27,7 @@ function load_rules(entries) {
 	old_rules.map((x) => {x.remove}, old_rules)
 	max_rid = 1
 	
-	if (entries.length == 0)
+	if (entries && entries.length == 0)
 		add_rule()
 	for(let i = 0; i < entries.length; i++){
 		let rid = i+1

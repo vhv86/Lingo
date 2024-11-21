@@ -23,7 +23,7 @@ class Rule {
 		// 	return this.replace_with
 		// }
 		// const sub = regex_literal(this.replace_with)
-		return this.replace_with
+		return this.target + " [" + this.replace_with + "]"
 	}
 
 }
