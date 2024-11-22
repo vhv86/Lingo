@@ -88,3 +88,6 @@ body {
   background: white;
   transition: left 0.15s ease-in;
 }
+#phonetics-tooltip {
+  transition: opacity 0.2s ease-in-out;
+}
